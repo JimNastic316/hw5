@@ -1,0 +1,18 @@
+<h1>POST Request Received</h1>
+{{!-- built in helper
+https://handlebarsjs.com/guide/builtin-helpers.html#each --}}
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">The table header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          {{#each dataList}}
+            <td>{{this.name}}: {{this.value}}</td>
+  {{/each}}
+        </tr>
+    </tbody>
+</table>

@@ -1,26 +1,14 @@
-// var express = require('express');
+/*************************************************
+ * James Underwood
+ * CS290 - Summer 2020
+ * HW5
+ ************************************************/
 
-// var app = express();
-
-// app.set('port', 3000);
-
-// app.use(function(req,res){
-//   res.type('text/plain');
-//   res.status(404);
-//   res.send('404 - Not Found');
-// });
-
-// app.use(function(err, req, res, next){
-//   console.error(err.stack);
-//   res.type('plain/text');
-//   res.status(500);
-//   res.send('500 - Server Error');
-// });
-
-// app.listen(app.get('port'), function(){
-//   console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl-C to terminate.');
-// });
-
+// In addition to the lecture videos, I also coded along 
+// with a youtube video that was recommended
+// https://www.youtube.com/watch?v=sw6rcXZiRos 
+// the main, 404, 500, home, and show-data handlbars code came
+// from that video
 
 var express = require('express');
 
@@ -76,3 +64,25 @@ app.listen(app.get('port'), function(){
   console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl-C to terminate.');
 });
 
+// var express = require('express');
+
+// var app = express();
+
+// app.set('port', 5426);
+
+// app.use(function(req,res){
+//   res.type('text/plain');
+//   res.status(404);
+//   res.send('404 - Not Found');
+// });
+
+// app.use(function(err, req, res, next){
+//   console.error(err.stack);
+//   res.type('plain/text');
+//   res.status(500);
+//   res.send('500 - Server Error');
+// });
+
+// app.listen(app.get('port'), function(){
+//   console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl-C to terminate.');
+// });
